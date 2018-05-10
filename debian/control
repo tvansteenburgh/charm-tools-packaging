@@ -1,0 +1,20 @@
+Source: charm-tools
+Maintainer: Tim Van Steenburgh <tvansteenburgh@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python3-setuptools, python-all (>= 2.6.6-3), python3-all, debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+
+
+Package: python-charm-tools
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Tools for maintaining Juju charms
+
+
+
+Package: python3-charm-tools
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Tools for maintaining Juju charms
